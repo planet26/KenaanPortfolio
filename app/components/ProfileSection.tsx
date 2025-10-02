@@ -6,16 +6,16 @@ const ProfileSection = () => {
 			<div className="space-y-8 text-center">
 				<div className="relative w-28 md:w-40 h-28 md:h-40 mx-auto">
 					<div className="relative w-full h-full rounded-full overflow-hidden ring-2 ring-gray-200 dark:ring-gray-700">
-						<Image src="/portrait.jpg" alt="Profile" fill className="object-cover" priority />
+						<Image src="/MePortrait.jpg" alt="Profile" fill className="object-cover" priority />
 					</div>
 				</div>
 
 				<div className="space-y-3">
-					<h1 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">John Doe</h1>
-					<h2 className="text-lg md:text-xl text-gray-600 dark:text-gray-400">Senior Software Engineer</h2>
+					<h1 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">Kenaan Khusayem</h1>
+					<h2 className="text-lg md:text-xl text-gray-600 dark:text-gray-400">Junior Software Engineer</h2>
 					<div className="h-px w-16 bg-gray-200 dark:bg-gray-700 mx-auto my-4" />
 					<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 max-w-xs mx-auto leading-relaxed">
-						15+ years building scalable systems and leading engineering teams
+						3 years of experience with building web projects
 					</p>
 				</div>
 
@@ -25,8 +25,8 @@ const ProfileSection = () => {
 						<svg className="w-4 h-4 text-gray-600 dark:text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
 							<path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 						</svg>
-						<a href="mailto:john.doe@example.com" className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
-							john.doe@example.com
+						<a href="mailto:khkhusayem@gmail.com" className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
+							khkhusayem@gmail.com
 						</a>
 					</div>
 
@@ -35,7 +35,7 @@ const ProfileSection = () => {
 							<path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
 							<path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
 						</svg>
-						<span className="text-sm text-gray-600 dark:text-gray-400">San Francisco, CA</span>
+						<span className="text-sm text-gray-600 dark:text-gray-400">Morrisville, NC, 27560</span>
 					</div>
 
 					{/* Social Links */}

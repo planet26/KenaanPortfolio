@@ -1,22 +1,22 @@
 const ExperienceSection = () => {
 	const experiences = [
 		{
-			role: 'Senior Software Engineer',
-			company: 'Tech Corp',
-			period: '2020 - Present',
-			highlights: 'Led development of microservices architecture, 40% improvement in system performance',
+			role: 'UNC Coding Bootcamp',
+			company: 'UNC Chapel Hill',
+			period: 'April 2024 - July 2024',
+			highlights: 'Wrote programs involving front/back end. Utilized plugins and packages. Interacted with typescript, node.js, and PostgreSQL on a daily basis',
 		},
 		{
-			role: 'Software Engineer',
-			company: 'Innovation Labs',
-			period: '2017 - 2020',
-			highlights: 'Architected cloud-native applications, mentored junior developers',
+			role: 'IT Technical Consultant',
+			company: 'Clayton Internal Medicine',
+			period: 'July 2021 - Present',
+			highlights: 'Performed routine software updates and troubleshooting for printers, computers, and other devices.',
 		},
 		{
-			role: 'Full Stack Developer',
-			company: 'StartUp Inc',
-			period: '2015 - 2017',
-			highlights: 'Built scalable web applications using React and Node.js',
+			role: 'Hobbyist Coder',
+			company: 'Extracurricular',
+			period: '2015 - Present',
+			highlights: 'Frequently develop programs as solutions for tedious tasks that can be automated.',
 		},
 	];
 
